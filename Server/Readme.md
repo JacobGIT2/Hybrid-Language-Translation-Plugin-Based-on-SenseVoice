@@ -1,3 +1,5 @@
+### Install Dependency
+1. pip install telethon
 ### Install SenseVoice
 1. clone the repo with "git clone https://github.com/FunAudioLLM/SenseVoice.git"
 2. cd SenseVoice/
