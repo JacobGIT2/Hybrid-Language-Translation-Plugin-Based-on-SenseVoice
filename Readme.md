@@ -1,10 +1,55 @@
-### Background
-- This is a model inference translation plugin based on [SenseVoice](https://github.com/FunAudioLLM/SenseVoice)
-- It use telegram as communication link, **allowing deployment on public server that banned Application-level ports**
-- As provided by SenseVoice, it support hybrid language translation
-- IOS shortcut is chosen as the way of plugin
-### Work Flow
-- Click and awoke shortcut on IOS device --> Automatically Record audio & Send to telegram chat through bot --> Server's telegram client receive audio file & start inference --> Server send result message to chat through your telegram account --> IOS device get result message, alert result & copy to clipboard
-- Based on my shortcut implementation, alerted result will be translated to Chinese, clipboard message will not be translated
-### Requirements
-1. No additional hardware requirements once you can run [SenseVoice](https://github.com/FunAudioLLM/SenseVoice) model inference
+🌟 SenseVoice 混合语言翻译插件
+
+
+
+📖 背景
+
+
+
+
+
+- 模型: SenseVoice
+
+
+
+- 通信: Telegram (绕过公共服务器应用层端口限制)
+
+
+
+- 功能: 支持混合语言翻译
+
+
+
+- 平台: iOS 快捷指令
+
+
+
+🚀 工作流程
+
+
+
+
+
+- 📱 iOS: 点击快捷指令 → 录音 → 发送至 Telegram 机器人
+
+
+
+- 🖥️ 服务器: 接收音频 → 推理翻译
+
+
+
+- 📤 服务器: 发送结果至 Telegram 聊天
+
+
+
+- 📲 iOS: 接收结果 → 弹窗 (翻译为中文) → 复制到剪贴板 (原文)
+
+
+
+⚙️ 要求
+
+
+
+
+
+无额外硬件需求，仅需运行 SenseVoice 模型

@@ -1,10 +1,46 @@
-### Install Dependency
-1. pip install telethon
-### Install SenseVoice
-1. clone the repo with "git clone https://github.com/FunAudioLLM/SenseVoice.git"
-2. cd SenseVoice/
-3. install dependency with "pip install -r requirements.txt"
-### Apply telegram api
-1. go to "https://my.telegram.org/", only need to set app name, short name & choose Desktop. Once application succeed, **keep the api_id, api_hash**
-2. replace **api_id**, **api_hash** & **phone** in app.py with your own version
-### Now the Server is ready!
+# ⚙️ Installation & Setup
+
+---
+
+## 📦 Install Dependencies  
+- **Telethon**:  
+  ```bash
+  pip install telethon
+  ```
+
+---
+
+## 🧠 Install SenseVoice  
+1. **Clone the Repository**:  
+   ```bash
+   git clone https://github.com/FunAudioLLM/SenseVoice.git
+   ```
+2. **Navigate to Directory**:  
+   ```bash
+   cd SenseVoice/
+   ```
+3. **Install Requirements**:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## 🔑 Apply for Telegram API  
+1. **Visit**: [my.telegram.org](https://my.telegram.org/)  
+2. **Configure**:  
+   - Set **App Name** & **Short Name**  
+   - Select **Desktop**  
+3. **Retrieve Credentials**:  
+   - Save **api_id** and **api_hash**  
+4. **Update Code**:  
+   - Replace **api_id**, **api_hash**, and **phone** in `app.py`
+
+---
+
+## 🎉 Server Ready!  
+*With these steps complete, your translation server is good to go!*
+
+---
+
+**Note**: Ensure all steps are followed for the server to function properly.

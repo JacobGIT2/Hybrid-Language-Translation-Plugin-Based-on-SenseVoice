@@ -1,7 +1,33 @@
-### Client configuration
-1. To successfully initialize, you need to apply a **telegram account** & a **telegram bot**. After registered the bot, keep the **Bot id**
-2. Put both **awaitUpdate Template.shortcut** & **Translate Template.shortcut** into IOS's Shortcut
-3. Replace \<Bot id> & \<chat_id> with your own bot's id & chat_id, you may get your chat_id using https://api.telegram.org/bot"Bot_id"/getUpdates
-### More Explanation:
-- **Translate Template.shortcut** is the client service gateway, it will POST the recorded audio to the telegram chat through your bot
-- **awaitUpdate Template.shortcut** is the result retrieve module, it retrieve chat message with telegram api getUpdates
+# 📱 Client Configuration
+
+---
+
+## 🔧 Setup Steps  
+1. **🤖 Apply for Telegram Account & Bot**  
+   - Register a Telegram account and create a bot.  
+   - Save the **Bot ID** for later use.  
+
+2. **📲 Add Shortcuts to iOS**  
+   - Install **awaitUpdate Template.shortcut** and **Translate Template.shortcut** in iOS Shortcuts.  
+
+3. **🔑 Configure Shortcuts**  
+   - Replace `<Bot id>` and `<chat_id>` in the shortcuts with your actual Bot ID and chat ID.  
+   - To find your chat ID, use:  
+     ```bash
+     https://api.telegram.org/bot<Bot_id>/getUpdates
+     ```
+
+---
+
+## 📝 Understanding the Shortcuts  
+- **Translate Template.shortcut**:  
+  - 🌐 Acts as the client service gateway.  
+  - 🎤 Posts recorded audio to the Telegram chat via your bot.  
+
+- **awaitUpdate Template.shortcut**:  
+  - 📥 Retrieves chat messages using Telegram's `getUpdates` API.  
+  - 📋 Fetches the translation results.  
+
+---
+
+**Note**: Complete all steps to ensure proper client functionality.
