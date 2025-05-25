@@ -4,9 +4,9 @@ from inference import process_audio
 import os
 
 
-api_id = 21482094  # 替换为您的 API ID
-api_hash = '19b635c390c91c825a579b252e3131df'  # 替换为您的 API hash
-phone = '+85267624236'
+api_id = 0  # 替换为您的 API ID
+api_hash = ''  # 替换为您的 API hash
+phone = ''
 
 client = TelegramClient('session_name', api_id, api_hash)
 
