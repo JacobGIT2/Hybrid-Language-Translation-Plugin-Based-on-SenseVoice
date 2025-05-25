@@ -1,6 +1,7 @@
 # 📱 Client Configuration
 
 ---
+[中文](./Readme_zh.md)
 
 ## 🔧 Setup Steps  
 1. **🤖 Apply for Telegram Account & Bot**  

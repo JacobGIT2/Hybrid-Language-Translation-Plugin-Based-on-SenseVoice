@@ -1,6 +1,7 @@
 # ⚙️ Installation & Setup
 
 ---
+[中文](./Readme_zh.md)
 
 ## 📦 Install Dependencies  
 - **Telethon**:  

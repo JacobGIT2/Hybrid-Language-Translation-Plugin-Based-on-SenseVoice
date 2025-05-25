@@ -1,55 +1,27 @@
-🌟 SenseVoice 混合语言翻译插件
+# 🌟 SenseVoice Hybrid Language Translation Plugin
 
+---
+[中文](./Readme_zh.md)
 
+## 📖 Background  
+- **Model**: [SenseVoice](https://github.com/FunAudioLLM/SenseVoice)  
+- **Communication**: Telegram (bypasses application-level port restrictions on public servers)  
+- **Features**: Supports hybrid language translation  
+- **Platform**: iOS Shortcuts  
 
-📖 背景
+---
 
+## 🚀 Workflow  
+1. **📱 iOS**: Click shortcut → Record audio → Send to Telegram bot  
+2. **🖥️ Server**: Receive audio → Perform translation inference  
+3. **📤 Server**: Send result to Telegram chat  
+4. **📲 iOS**: Receive result → Display popup (translated to Chinese) → Copy original to clipboard  
 
+---
 
+## ⚙️ Requirements  
+- No additional hardware required, only need to run the [SenseVoice](https://github.com/FunAudioLLM/SenseVoice) model  
 
+---
 
-- 模型: SenseVoice
-
-
-
-- 通信: Telegram (绕过公共服务器应用层端口限制)
-
-
-
-- 功能: 支持混合语言翻译
-
-
-
-- 平台: iOS 快捷指令
-
-
-
-🚀 工作流程
-
-
-
-
-
-- 📱 iOS: 点击快捷指令 → 录音 → 发送至 Telegram 机器人
-
-
-
-- 🖥️ 服务器: 接收音频 → 推理翻译
-
-
-
-- 📤 服务器: 发送结果至 Telegram 聊天
-
-
-
-- 📲 iOS: 接收结果 → 弹窗 (翻译为中文) → 复制到剪贴板 (原文)
-
-
-
-⚙️ 要求
-
-
-
-
-
-无额外硬件需求，仅需运行 SenseVoice 模型
+*Simple and efficient translation, anytime, anywhere!*
